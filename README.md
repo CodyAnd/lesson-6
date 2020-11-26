@@ -1,6 +1,10 @@
+
 # lesson-6
+
 For building container run:
-docker build .
+docker build -t javaweb ./
 
 For run container:
-docker run <container id>
+docker run -d -p 8080:8080 javaweb
+
+
